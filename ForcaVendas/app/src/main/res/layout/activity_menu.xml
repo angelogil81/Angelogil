@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoazul"
+    tools:context="br.com.luiztools.forcavendas.MenuActivity">
+
+    <Button
+        android:id="@+id/angry_btn002"
+        android:text="ESTÉTICA CORPORAL "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button002"
+        tools:layout_editor_absoluteY="210dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_below="@+id/angry_btn"
+        android:layout_alignStart="@+id/angry_btn004"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/angry_btn004" />
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:text="O QUE VOCÊ DESEJA ?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button003"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/angry_btn002"
+        android:layout_alignRight="@+id/angry_btn002" />
+
+    <Button
+        android:id="@+id/angry_btn004"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button004"
+        android:text="ESTÉTICA FACIAL "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/angry_btn005"
+        android:layout_alignLeft="@+id/angry_btn005" />
+
+    <Button
+        android:id="@+id/angry_btn005"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button005"
+        android:text="TRATAMENTO CAPILAR "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="290dp"
+        android:layout_above="@+id/angry_btn007"
+        android:layout_alignStart="@+id/angry_btn007"
+        android:layout_marginBottom="56dp"
+        android:layout_alignLeft="@+id/angry_btn007" />
+
+    <Button
+        android:id="@+id/angry_btn007"
+        android:text="CENTROS DE ESTÉTICA PRÓXIMO A VOCÊ"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button007"
+        tools:layout_editor_absoluteY="435dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
